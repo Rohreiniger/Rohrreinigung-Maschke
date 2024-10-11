@@ -1,0 +1,96 @@
+.elementor-1954 .elementor-element.elementor-element-43c72b20 > .elementor-container{max-width:1300px;}.elementor-1954 .elementor-element.elementor-element-43c72b20 > .elementor-container > .elementor-column > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-1954 .elementor-element.elementor-element-43c72b20:not(.elementor-motion-effects-element-type-background), .elementor-1954 .elementor-element.elementor-element-43c72b20 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-f1ad9d4 );}.elementor-1954 .elementor-element.elementor-element-43c72b20{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:3% 0% 3% 0%;}.elementor-1954 .elementor-element.elementor-element-43c72b20 > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-1954 .elementor-element.elementor-element-559447b .elementor-element-populated a{color:var( --e-global-color-secondary );}.elementor-1954 .elementor-element.elementor-element-559447b .elementor-element-populated a:hover{color:var( --e-global-color-primary );}.elementor-1954 .elementor-element.elementor-element-559447b > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;}.elementor-1954 .elementor-element.elementor-element-1f604eb1{color:var( --e-global-color-secondary );font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );text-transform:var( --e-global-typography-secondary-text-transform );font-style:var( --e-global-typography-secondary-font-style );text-decoration:var( --e-global-typography-secondary-text-decoration );line-height:var( --e-global-typography-secondary-line-height );}@media(max-width:1024px){.elementor-1954 .elementor-element.elementor-element-1f604eb1{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}}@media(max-width:767px){.elementor-1954 .elementor-element.elementor-element-43c72b20{padding:3% 0% 3% 0%;}.elementor-1954 .elementor-element.elementor-element-559447b > .elementor-element-populated{margin:0px 0px 0px 0px;--e-column-margin-right:0px;--e-column-margin-left:0px;padding:20px 20px 10px 20px;}.elementor-1954 .elementor-element.elementor-element-1f604eb1{text-align:left;font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );}}/* Start custom CSS */.slide-set .elementor-slide-heading {
+    border-left: 2px solid white;
+    padding-left: 35px;
+    margin-left: -100px;
+}
+
+.slide-set .elementor-slide-description {
+    padding-left: 45px;
+    margin-left: -100px;
+}
+
+
+@media(min-width:768px){
+    .slide-set .elementor-swiper-button-prev {
+    background-color: white;
+    padding: 20px;
+}
+
+.slide-set .elementor-swiper-button.elementor-swiper-button-prev {
+    position: absolute;
+    top: 518px !important;
+    left: 1220px !important;
+
+}
+
+.slide-set .elementor-swiper-button-next {
+    background-color: white;
+    padding: 20px;
+}
+
+.elementor-swiper-button.elementor-swiper-button-next {
+    position: absolute;
+    top: 518px !important;
+    right:0px !important;
+}
+
+}
+
+
+
+
+@media(max-width:767px){.slide-set .elementor-swiper-button-prev {
+    background-color: white;
+    padding: 5px !important;
+}
+
+.slide-set .elementor-swiper-button.elementor-swiper-button-prev {
+    position: absolute;
+    top: 518px !important;
+    top:550px !important;
+    left: 55px !important;
+
+}
+
+.slide-set .elementor-swiper-button-next {
+    background-color: white;
+    padding: 5px !important;
+}
+
+.elementor-swiper-button.elementor-swiper-button-next {
+    position: absolute;
+    top: 550px !important;
+    right:220px !important;
+}
+
+}
+
+
+.img-sets img{
+    background-color:black !important;
+    padding: 10px;
+}
+
+
+
+
+.col-heights{
+    height:350px;
+}
+
+
+
+.services-img-back img{
+    background-color: #2177AB;
+    padding: 10px;
+    border-radius:50px;
+}
+
+
+
+.service_box:hover *{
+    color:white!important;   
+}
+.service_box:hover img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) grayscale(100%);
+}/* End custom CSS */
